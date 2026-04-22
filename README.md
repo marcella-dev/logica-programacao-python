@@ -1,28 +1,18 @@
-# 🐍 Lógica de Programação com Python
+# 🚀 Meus Primeiros Passos na Programação com Python
 
-Este repositório é o meu "laboratório" de estudos em Python. Aqui, reúno algoritmos e ferramentas utilitárias que desenvolvi para consolidar conceitos fundamentais de engenharia de software e lógica de programação.
+Bem-vindo ao meu repositório de estudos! Aqui documento a minha jornada em Engenharia de Software, focando em lógica e resolução de problemas reais.
 
-## 🚀 O que você vai encontrar aqui?
+## 📁 Projetos Incluídos:
 
-O repositório contém scripts focados em diferentes áreas de aprendizado:
+* **🎮 Jogo da Adivinhação:** Um jogo interativo que utiliza a biblioteca `random` para gerar números e `time` para melhorar a experiência do utilizador.
+* **📈 Simulador de Investimentos:** Script para cálculos financeiros e projeções.
+* **🛒 Simulador de Compras:** Sistema de cálculo de total de produtos com interrupção amigável.
+* **🔐 Sistema de Login:** Prática de estruturas condicionais e validação de dados.
 
-* **📈 Simulador de Investimentos:** Aplicação que realiza cálculos de projeção financeira (fixação de variáveis e operações aritméticas).
-* **🛒 Simulador de Compras:** Gestão de itens em um carrinho virtual com cálculo de total em tempo real (estruturas de repetição `while` e condicionais).
-* **🔐 Sistema de Login:** Protótipo de validação de acesso (fluxo de usuário e segurança básica).
-* **🎮 Jogo da Adivinhação:** Um pequeno jogo de interação com o usuário para praticar bibliotecas e aleatoriedade.
+## 🛠️ Tecnologias Utilizadas:
+- Python 3
+- Git & GitHub
+- VS Code
 
-## 🛠️ Tecnologias e Conceitos Aplicados
-
-- **Linguagem:** Python 3.14
-- **Conceitos de Lógica:**
-    - Manipulação de tipos de dados (`int`, `float`, `string`).
-    - Estruturas condicionais (`if`, `elif`, `else`).
-    - Laços de repetição (`while` e `for`).
-    - Formatação de saída de dados (`f-strings`).
-
-## 💻 Como executar os projetos
-
-1. Certifique-se de ter o Python instalado.
-2. Clone o repositório:
-   ```bash
-   git clone [https://github.com/marcella-dev/logica-programacao-python.git](https://github.com/marcella-dev/logica-programacao-python.git)
+---
+*Estudante de Engenharia de Software focada em desenvolvimento Backend e Cloud.*
