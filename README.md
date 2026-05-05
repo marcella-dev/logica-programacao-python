@@ -10,6 +10,7 @@ Bem-vindo ao meu repositório de estudos! Aqui documento a minha jornada em Enge
 * **🔐 Sistema de Login:** Prática de estruturas condicionais e validação de dados.
 * **🏠 Análise de Empréstimo:** Sistema que valida a concessão de crédito imobiliário com base na regra de 30% da renda mensal.
 * **💳 Gerenciador de Pagamentos:** Algoritmo que simula o checkout de uma loja, aplicando descontos para pagamentos à vista e juros para parcelamentos longos.
+* **💱 Conversor de Moedas:** Script que realiza a conversão de Real para Dólar e Euro, praticando operações aritméticas e formatação de saída.
 ## 🛠️ Tecnologias Utilizadas:
 - Python 3
 - Git & GitHub
