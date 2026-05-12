@@ -11,10 +11,11 @@ Bem-vindo ao meu repositório de estudos! Aqui documento a minha jornada em Enge
 * **🏠 Análise de Empréstimo:** Sistema que valida a concessão de crédito imobiliário com base na regra de 30% da renda mensal.
 * **💳 Gerenciador de Pagamentos:** Algoritmo que simula o checkout de uma loja, aplicando descontos para pagamentos à vista e juros para parcelamentos longos.
 * **💱 Conversor de Moedas:** Script que realiza a conversão de Real para Dólar e Euro, praticando operações aritméticas e formatação de saída.
+* **📊 Analisador de Dados de Performance:** Script desenvolvido para simular a coleta e tratamento de grandes volumes de dados.
 ## 🛠️ Tecnologias Utilizadas:
 - Python 3
 - Git & GitHub
 - VS Code
 
 ---
-*Estudante de Engenharia de Software focada em desenvolvimento Backend e Cloud.*
+*Estudante de Engenharia de Software.*
