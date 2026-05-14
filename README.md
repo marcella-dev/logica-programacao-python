@@ -12,6 +12,7 @@ Bem-vindo ao meu repositório de estudos! Aqui documento a minha jornada em Enge
 * **💳 Gerenciador de Pagamentos:** Algoritmo que simula o checkout de uma loja, aplicando descontos para pagamentos à vista e juros para parcelamentos longos.
 * **💱 Conversor de Moedas:** Script que realiza a conversão de Real para Dólar e Euro, praticando operações aritméticas e formatação de saída.
 * **📊 Analisador de Dados de Performance:** Script desenvolvido para simular a coleta e tratamento de grandes volumes de dados.
+* **📦 Sistema de Gestão de Estoque - DataCode Solutions:** Script avançado de automação para controle de inventário.
 ## 🛠️ Tecnologias Utilizadas:
 - Python 3
 - Git & GitHub
