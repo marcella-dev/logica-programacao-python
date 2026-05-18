@@ -2,7 +2,7 @@ estoque = {
     'Notebook': {'quantidade': 10, 'preço': 3500.00}, 
     'Mouse': {'quantidade': 50, 'preço': 89.90}, 
     'Teclado': {'quantidade': 15, 'preço': 250.00},
-    'Monitor gamer': {'quantidade': 25, 'preço': 1250.75}
+    'Monitor': {'quantidade': 8, 'preço': 1250.75}
     }
 
 while True:
@@ -23,12 +23,14 @@ while True:
         print("\n--- REGISTRAR ENTRADA ---")
         nome_produto = input("Digite o nome do produto: ").capitalize()
     
-        # Verificando se o produto existe no dicionário
+        # Validação: verificando se o produto existe no nosso dicionário
         if nome_produto in estoque:
             quantidade_entrada = int(input(f"Quantidade a adicionar para {nome_produto}: "))
-            # Atualização aritmética acumulativa
-            estoque[nome_produto]['quantidade'] += quantidade_entrada
-            print(f"Sucesso! Novo estoque de {nome_produto}: {estoque[nome_produto]['quantidade']}")
+            if quantidade_entrada > 0:
+                estoque[nome_produto]['quantidade'] += quantidade_entrada
+                print(f"Sucesso! Novo estoque de {nome_produto}: {estoque[nome_produto]['quantidade']}")
+            else:
+                print(f'Erro: O produto "{nome_produto}" não foi encontrado.')
         else:
             print(f"Erro: O produto '{nome_produto}' não foi encontrado.")
 
@@ -39,20 +41,23 @@ while True:
         # 1ª Validação: O produto existe?
         if nome_produto in estoque:
             quantidade_saida = int(input(f"Quantidade para saída de {nome_produto}: "))
-        
+
             # 2ª Validação: Existe saldo suficiente?
-            if estoque[nome_produto]['quantidade'] >= quantidade_saida:
+            if quantidade_saida > 0:
+                if estoque[nome_produto]['quantidade'] >= quantidade_saida:
                 # Atribuição subtrativa
-                estoque[nome_produto]['quantidade'] -= quantidade_saida
-                print(f"Saída registrada! Novo estoque de {nome_produto}: {estoque[nome_produto]['quantidade']}")
+                    estoque[nome_produto]['quantidade'] -= quantidade_saida
+                    print(f"Saída registrada! Novo estoque de {nome_produto}: {estoque[nome_produto]['quantidade']}")
+                else:
+                    print(f"Erro: Estoque insuficiente. Saldo atual: {estoque[nome_produto]['quantidade']}")
             else:
-                print(f"Erro: Estoque insuficiente. Saldo atual: {estoque[nome_produto]['quantidade']}")
+                print(f'[ERRO] A quantidade de saída deve ser um número possitivo maior que zero.')
         else:
             print(f"Erro: O produto '{nome_produto}' não foi encontrado.")
 
     elif opcao == "4":
         print("\nEncerrando o sistema da DataCode Solutions... Até logo!")
-        break 
+        break  # Interrompe o laço while True imediatamente
 
     else:
         # Este é o bloco de 'fallback' para qualquer entrada que não seja 1, 2, 3 ou 4
