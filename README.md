@@ -24,8 +24,3 @@ Bem-vindo ao meu repositório de estudos! Aqui documento a minha jornada técnic
 *   **Ambiente de Desenvolvimento:** VS Code
 
 ---
-
-## 🎓 Formação
-
-*   **Python Fundamental** — FIAP (Concluído)
-*   **Foco Atual:** Aprendizado de SQL (Bancos de Dados Relacionais) e consumo de APIs RESTful para engenharia de dados.
